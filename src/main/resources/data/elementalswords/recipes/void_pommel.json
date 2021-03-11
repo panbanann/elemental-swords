@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " E ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "E": {
+      "item": "elementalswords:void_soul"
+    },
+    "R": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "item": "elementalswords:void_pommel",
+    "count": 1
+  }
+}

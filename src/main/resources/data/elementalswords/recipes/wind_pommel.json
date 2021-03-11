@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " E ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobweb"
+    },
+    "E": {
+      "item": "elementalswords:wind_soul"
+    },
+    "R": {
+      "item": "minecraft:chiseled_sandstone"
+    }
+  },
+  "result": {
+    "item": "elementalswords:wind_pommel",
+    "count": 1
+  }
+}

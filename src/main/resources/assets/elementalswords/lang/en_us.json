@@ -1,0 +1,47 @@
+{
+  "item.elementalswords.fire_soul":             "Fire Soul",
+  "item.elementalswords.water_soul":            "Water Soul",
+  "item.elementalswords.nature_soul":           "Nature Soul",
+  "item.elementalswords.wind_soul":             "Wind Soul",
+  "item.elementalswords.void_soul":             "Void Soul",
+
+  "item.elementalswords.fire_crystal":          "Fire Crystal",
+  "item.elementalswords.water_crystal":         "Water Crystal",
+  "item.elementalswords.nature_crystal":        "Nature Crystal",
+  "item.elementalswords.wind_crystal":          "Wind Crystal",
+  "item.elementalswords.void_crystal":          "Void Crystal",
+
+  "item.elementalswords.incandescent_fire":     "Incandescent Fire",
+  "item.elementalswords.frozen_icicle":         "Frozen Icicle",
+  "item.elementalswords.sharp_grass":           "Sharp Grass",
+  "item.elementalswords.wind_blade":            "Wind Blade",
+  "item.elementalswords.edge_of_darkness":      "Edge Of Darkness",
+
+  "item.elementalswords.fire_pommel":            "Fire Pommel",
+  "item.elementalswords.water_pommel":           "Water Pommel",
+  "item.elementalswords.nature_pommel":          "Nature Pommel",
+  "item.elementalswords.wind_pommel":            "Wind Pommel",
+  "item.elementalswords.void_pommel":            "Void Pommel",
+
+  "item.elementalswords.fire_hilt":            "Fire Hilt",
+  "item.elementalswords.water_hilt":           "Water Hilt",
+  "item.elementalswords.nature_hilt":          "Nature Hilt",
+  "item.elementalswords.wind_hilt":            "Wind Hilt",
+  "item.elementalswords.void_hilt":            "Void Hilt",
+
+  "item.elementalswords.fire_ingot":            "Fire Ingot",
+  "item.elementalswords.water_ingot":           "Water Ingot",
+  "item.elementalswords.nature_ingot":          "Nature Ingot",
+  "item.elementalswords.wind_ingot":            "Wind Ingot",
+  "item.elementalswords.void_ingot":            "Void Ingot",
+
+  "item.elementalswords.fire_sword":            "The Sword of Conflagration",
+  "item.elementalswords.water_sword":           "Frozen Sword",
+  "item.elementalswords.nature_sword":          "Terra Blade",
+  "item.elementalswords.wind_sword":            "The Wind Fury",
+  "item.elementalswords.void_sword":            "The Night",
+  "item.elementalswords.elemental_sword":       "Sword of Infinity",
+
+  "enchantment.elementalswords.eruption":      "Eruption",
+  "enchantment.elementalswords.eruption.desc:":           "Each hit have a chance to trigger eruption"
+}

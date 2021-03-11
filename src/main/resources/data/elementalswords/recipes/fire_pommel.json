@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " E ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lava_bucket"
+    },
+    "E": {
+      "item": "elementalswords:fire_soul"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "elementalswords:fire_pommel",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " n ",
+    "G  "
+  ],
+  "key": {
+    "#": {
+      "item": "elementalswords:wind_ingot"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "elementalswords:frozen_icicle",
+    "count": 1
+  }
+}

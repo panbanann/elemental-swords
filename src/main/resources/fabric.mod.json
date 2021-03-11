@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "eleswords",
+  "version": "${version}",
+
+  "name": "Elemental Swords",
+  "description": "This mod adding elemental swords weapons as well as some of the items and item placeholders for future.This is my first mod so it may be buggy.",
+  "authors": [
+    "Mateusz J - panbanan"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/elementalswords/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "panbanan.elementalswords.ElementalSwords"
+    ]
+  },
+  "mixins": [
+    ""
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

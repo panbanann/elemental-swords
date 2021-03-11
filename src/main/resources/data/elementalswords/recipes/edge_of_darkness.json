@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " n ",
+    "E  "
+  ],
+  "key": {
+    "#": {
+      "item": "elementalswords:void_ingot"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "elementalswords:edge_of_darkness",
+    "count": 1
+  }
+}

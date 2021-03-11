@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:trident"
+    },
+    {
+      "item": "minecraft:turtle_helmet"
+    },
+    {
+      "item": "minecraft:sponge"
+    },
+    {
+      "item": "minecraft:conduit"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "elementalswords:water_crystal",
+    "count": 1
+  }
+}

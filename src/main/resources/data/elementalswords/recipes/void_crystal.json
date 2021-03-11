@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E/",
+    "SDO",
+    "QNW"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dragon_head"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "/": {
+      "item": "minecraft:end_rod"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "O": {
+      "item": "minecraft:end_crystal"
+    },
+    "Q": {
+      "item": "minecraft:dragon_breath"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "W": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "item": "elementalswords:void_crystal",
+    "count": 1
+  }
+}

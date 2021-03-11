@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#LN",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "N": {
+      "item": "elementalswords:nature_crystal"
+    }
+  },
+  "result": {
+    "item": "elementalswords:nature_hilt",
+    "count": 1
+  }
+}

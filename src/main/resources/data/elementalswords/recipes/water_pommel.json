@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " E ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:water_bucket"
+    },
+    "E": {
+      "item": "elementalswords:water_soul"
+    },
+    "R": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "result": {
+    "item": "elementalswords:water_pommel",
+    "count": 1
+  }
+}

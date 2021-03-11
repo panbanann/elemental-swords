@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#LV",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "V": {
+      "item": "elementalswords:void_crystal"
+    }
+  },
+  "result": {
+    "item": "elementalswords:void_hilt",
+    "count": 1
+  }
+}

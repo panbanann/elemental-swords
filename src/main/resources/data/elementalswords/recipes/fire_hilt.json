@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#LF",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "F": {
+      "item": "elementalswords:fire_crystal"
+    }
+  },
+  "result": {
+    "item": "elementalswords:fire_hilt",
+    "count": 1
+  }
+}

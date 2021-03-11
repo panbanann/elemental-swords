@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " E ",
+    " R "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "E": {
+      "item": "elementalswords:nature_soul"
+    },
+    "R": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "elementalswords:nature_pommel",
+    "count": 1
+  }
+}

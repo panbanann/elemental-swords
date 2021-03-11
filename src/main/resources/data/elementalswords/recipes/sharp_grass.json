@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " n ",
+    "L  "
+  ],
+  "key": {
+    "#": {
+      "item": "elementalswords:nature_ingot"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "L": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "elementalswords:sharp_grass",
+    "count": 1
+  }
+}

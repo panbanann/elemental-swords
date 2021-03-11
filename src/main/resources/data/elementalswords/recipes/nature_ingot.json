@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "item": "elementalswords:nature_soul"
+  },
+  "result": {
+    "item": "elementalswords:nature_ingot"
+  }
+}

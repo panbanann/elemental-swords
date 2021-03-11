@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " n ",
+    "/  "
+  ],
+  "key": {
+    "#": {
+      "item": "elementalswords:fire_ingot"
+    },
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "elementalswords:incandescent_fire",
+    "count": 1
+  }
+}

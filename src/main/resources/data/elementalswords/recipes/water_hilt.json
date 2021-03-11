@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "#LW",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "elementalswords:water_crystal"
+    }
+  },
+  "result": {
+    "item": "elementalswords:water_hilt",
+    "count": 1
+  }
+}

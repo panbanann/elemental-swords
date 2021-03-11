@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "item": "elementalswords:water_soul"
+  },
+  "result": {
+    "item": "elementalswords:water_ingot"
+  }
+}

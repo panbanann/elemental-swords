@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart_block"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:ancient_debris"
+    },
+    {
+      "item": "minecraft:skull_banner_pattern"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:respawn_anchor"
+    },
+    {
+      "item": "minecraft:music_disc_pigstep"
+    }
+  ],
+  "result": {
+    "item": "elementalswords:fire_crystal",
+    "count": 1
+  }
+}
