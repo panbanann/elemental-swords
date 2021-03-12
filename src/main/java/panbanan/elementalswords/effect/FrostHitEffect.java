@@ -1,16 +1,17 @@
 package panbanan.elementalswords.effect;
 
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectType;
-import net.minecraft.entity.player.PlayerEntity;
 
-public class EruptionEffect extends StatusEffect {
-    public EruptionEffect(){
+
+public class FrostHitEffect extends StatusEffect {
+
+    public FrostHitEffect(){
         super(StatusEffectType.HARMFUL, 0xFF8C00);
     }
+
+
     @Override
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
         // In our case, we just make it return true so that it applies the status effect every tick.
@@ -18,11 +19,9 @@ public class EruptionEffect extends StatusEffect {
     }
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
-        if (entity instanceof PlayerEntity) {
-            entity.isInvulnerableTo(DamageSource.LAVA); // Player immune to Lava type of dmg
-        }else {
-            entity.damage(DamageSource.LAVA, 2F);
-            entity.setOnFireFor(3);
-        }
+        //double speed = entity.getAttributeValue(GENERIC_MOVEMENT_SPEED);
+        //EntityAttributeModifier.Operation.MULTIPLY_TOTAL.
+        entity.setMovementSpeed(0F);
     }
 }
+
