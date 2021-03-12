@@ -8,5 +8,4 @@ public class Swords extends SwordItem {
         super(toolMaterial, attackDamage, attackSpeed, settings);
     }
 
-
 }

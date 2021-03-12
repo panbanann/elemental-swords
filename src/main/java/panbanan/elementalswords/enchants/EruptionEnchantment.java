@@ -20,10 +20,8 @@ public class EruptionEnchantment extends Enchantment {
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if(target instanceof LivingEntity) {
-
             target.setOnFireFor(3);
             target.damage(DamageSource.LAVA, 3F);
-                    //addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 20 * 2 * level, level + 1));
             spawnFlameCloud((PlayerEntity) user, (LivingEntity) target, 3F);
         }
     }
@@ -37,11 +35,8 @@ public class EruptionEnchantment extends Enchantment {
         areaEffectCloudEntity.setParticleType(ParticleTypes.LAVA);
         areaEffectCloudEntity.setRadius(radius);
         areaEffectCloudEntity.setDuration(60);
-
-        StatusEffectInstance effect = new StatusEffectInstance(
-                StatusEffects.WITHER,
-                60,
-                2,true,false);
+        areaEffectCloudEntity.setWaitTime(0);
+        StatusEffectInstance effect = new StatusEffectInstance(StatusEffects.WITHER, 60, 2,false,false);
         areaEffectCloudEntity.addEffect(effect);
         areaEffectCloudEntity.setOnFireFor(3);
         target.world.spawnEntity(areaEffectCloudEntity);
