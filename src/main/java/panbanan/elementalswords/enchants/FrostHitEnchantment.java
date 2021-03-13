@@ -7,7 +7,6 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import panbanan.elementalswords.effect.EffectsRegistry;
 
 public class FrostHitEnchantment extends Enchantment {
 
@@ -17,8 +16,9 @@ public class FrostHitEnchantment extends Enchantment {
 
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
+        int stopMovement = level * 1000;
         if(target instanceof LivingEntity) {
-            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(EffectsRegistry.FROST_HIT_EFFECT,100, level));
+            ((LivingEntity) target).addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS,100, stopMovement));
 
         }
     }
