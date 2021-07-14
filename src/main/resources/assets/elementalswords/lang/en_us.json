@@ -45,5 +45,11 @@
   "enchantment.elementalswords.eruption":      "Eruption",
   "enchantment.elementalswords.eruption.desc:":           "Each hit have a chance to trigger a volcanic eruption",
   "enchantment.elementalswords.frost_hit":      "Frost Hit",
-  "enchantment.elementalswords.frost_hit.desc:":           "Each hit have a chance to freeze the target"
+  "enchantment.elementalswords.frost_hit.desc:":           "Each hit have a chance to freeze the target",
+  "enchantment.elementalswords.floral_divinity":      "Floral Divinity",
+  "enchantment.elementalswords.floral_divinity.desc:":           "Hitting enemies provides healing powers and shield.",
+  "enchantment.elementalswords.knock_up":      "Knock Up",
+  "enchantment.elementalswords.knock_up.desc:":           "Hitting enemies launch them into the air.",
+  "enchantment.elementalswords.torment":      "Torment of the Void",
+  "enchantment.elementalswords.torment.desc:":           "Enemies getting hit by the torment of the void will their health and spread torment on death."
 }

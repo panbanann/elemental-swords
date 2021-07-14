@@ -7,9 +7,11 @@ import panbanan.elementalswords.ElementalSwords;
 
 public class EffectsRegistry {
     public static StatusEffect ERUPTION_EFFECT;
+    public static StatusEffect VOID_TORMENT_EFFECT;
 
 
     public static void init() {
         ERUPTION_EFFECT = Registry.register(Registry.STATUS_EFFECT, new Identifier(ElementalSwords.MOD_ID,"eruption_effect"), new EruptionEffect());
+        VOID_TORMENT_EFFECT = Registry.register(Registry.STATUS_EFFECT, new Identifier(ElementalSwords.MOD_ID,"void_torment_effect"), new VoidTormentEffect());
     }
 }

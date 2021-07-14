@@ -1,5 +1,6 @@
 package panbanan.elementalswords.enchants;
 
+import net.minecraft.entity.damage.DamageSource;
 import  panbanan.elementalswords.effect.EffectsRegistry;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
@@ -18,11 +19,12 @@ public class EruptionEnchantment extends Enchantment {
     }
 
     @Override
-    public void onTargetDamaged(LivingEntity user, Entity target, int level) {
-        if(target instanceof LivingEntity) {
-
-            //target.damage(DamageSource.LAVA, 3F);
-            spawnFlameCloud((PlayerEntity) user, (LivingEntity) target, 3F);
+    public void onTargetDamaged(LivingEntity user, Entity targetEntity, int level) {
+        if(targetEntity instanceof LivingEntity) {
+            if (user instanceof PlayerEntity) {
+                //target.damage(DamageSource.LAVA, 3F);
+                spawnFlameCloud((PlayerEntity) user, (LivingEntity) targetEntity, 3F);
+            }
         }
     }
     public static void spawnFlameCloud(PlayerEntity user, LivingEntity target, float radius) {
