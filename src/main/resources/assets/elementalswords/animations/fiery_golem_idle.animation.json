@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation_idle.fiery_golem.new": {
+			"loop": true,
+			"animation_length": 1.44,
+			"start_delay": "0.2",
+			"loop_delay": "0.8",
+			"bones": {
+				"Arms": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.72": {
+							"vector": [0, -1, 0]
+						},
+						"1.44": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Torso": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.72": {
+							"vector": [0, -1, 0],
+							"easing": "easeInQuint"
+						},
+						"1.44": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.72": {
+							"vector": [0, -1, 0]
+						},
+						"1.44": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

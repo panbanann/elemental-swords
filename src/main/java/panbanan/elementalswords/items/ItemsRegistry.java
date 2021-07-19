@@ -1,12 +1,17 @@
 package panbanan.elementalswords.items;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import panbanan.elementalswords.ElementalSwords;
+import panbanan.elementalswords.items.armors.potatHelmet;
 import panbanan.elementalswords.items.material.ElementToolMaterial;
+import panbanan.elementalswords.items.material.ElementalArmorMaterial;
 import panbanan.elementalswords.items.weapons.Swords;
+import software.bernie.example.item.PotatoArmorItem;
+import software.bernie.example.registry.RegistryUtils;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 
 
 public class ItemsRegistry {
@@ -47,7 +52,11 @@ public class ItemsRegistry {
     private static final Item WIND_SWORD = new Swords(ElementToolMaterial.INSTANCE, 1, -1.5F, new Item.Settings().group(ItemGroup.COMBAT));
     private static final Item VOID_SWORD = new Swords(ElementToolMaterial.INSTANCE, 4, -1.8F, new Item.Settings().group(ItemGroup.COMBAT));
     private static final Item ELEMENTAL_SWORD = new Swords(ElementToolMaterial.INSTANCE, 6, -1.5F, new Item.Settings().group(ItemGroup.COMBAT));
+    //private static final Item POTAT_HELMET = new ArmorItem(ElementalArmorMaterial.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
+    //public static final Item POTAT_HELMET = new potatHelmet(ElementalArmorMaterial.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
 
+    public static final potatHelmet POTAT_HELMET = RegistryUtils.registerItem("potat_helmet", new potatHelmet(
+            ArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
 
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "fire_soul"), FIRE_SOUL);
@@ -87,5 +96,7 @@ public class ItemsRegistry {
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "wind_sword"), WIND_SWORD);
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "void_sword"), VOID_SWORD);
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "elemental_sword"), ELEMENTAL_SWORD);
+
+        //Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "potat_helmet"), POTAT_HELMET);
     }
 }
