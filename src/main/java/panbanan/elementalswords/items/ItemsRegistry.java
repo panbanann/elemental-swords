@@ -53,10 +53,10 @@ public class ItemsRegistry {
     private static final Item VOID_SWORD = new Swords(ElementToolMaterial.INSTANCE, 4, -1.8F, new Item.Settings().group(ItemGroup.COMBAT));
     private static final Item ELEMENTAL_SWORD = new Swords(ElementToolMaterial.INSTANCE, 6, -1.5F, new Item.Settings().group(ItemGroup.COMBAT));
     //private static final Item POTAT_HELMET = new ArmorItem(ElementalArmorMaterial.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
-    //public static final Item POTAT_HELMET = new potatHelmet(ElementalArmorMaterial.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
+    public static final Item POTAT_HELMET = new potatHelmet(ArmorMaterials.LEATHER, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT));
 
-    public static final potatHelmet POTAT_HELMET = RegistryUtils.registerItem("potat_helmet", new potatHelmet(
-            ArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));
+    /*public static final potatHelmet POTAT_HELMET = RegistryUtils.registerItem("potat_helmet", new potatHelmet(
+            ArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Settings().group(ItemGroup.COMBAT)));*/
 
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "fire_soul"), FIRE_SOUL);
@@ -97,6 +97,6 @@ public class ItemsRegistry {
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "void_sword"), VOID_SWORD);
         Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "elemental_sword"), ELEMENTAL_SWORD);
 
-        //Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "potat_helmet"), POTAT_HELMET);
+        Registry.register(Registry.ITEM, new Identifier(ElementalSwords.MOD_ID, "potat_helmet"), POTAT_HELMET);
     }
 }

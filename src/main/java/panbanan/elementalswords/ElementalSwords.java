@@ -20,7 +20,7 @@ public class ElementalSwords implements ModInitializer {
         EffectsRegistry.init();
         EntityTestingClient.onInitializeClient();
         EntityTesting.onInitialize();
-        PotatoRenderer.onInitializeClient();
+        //PotatoRenderer.onInitializeClient();
     }
 
 
