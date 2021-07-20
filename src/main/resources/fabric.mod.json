@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "panbanan.elementalswords.ElementalSwords"
+    ],
+    "client": [
+      "panbanan.panbanansmobs.EntityTestingClient"
     ]
   },
   "mixins": [

@@ -12,7 +12,6 @@ import net.minecraft.util.registry.Registry;
 import panbanan.panbanansmobs.entities.FieryGolemEntity;
 import software.bernie.example.registry.ItemRegistry;
 
-
 public class EntityTesting{
 
     public static final EntityType<FieryGolemEntity> FIERY_GOLEM = Registry.register(

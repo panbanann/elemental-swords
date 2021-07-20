@@ -1,13 +1,15 @@
 package panbanan.panbanansmobs;
 
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 
-class PanBanansMobs implements ModInitializer {
+import panbanan.panbanansmobs.EntityTesting;
+import panbanan.panbanansmobs.EntityTestingClient;
 
-    public static final String MOD_ID = "panbanansmobs";
-    @Override
-    public void onInitialize(){
+//public class PanBanansMobs implements  {
+
+    //@Override
+    //public void onInitializeClient() {
         /*EntityTestingClient.onInitializeClient();
         EntityTesting.onInitialize();*/
-    }
-}
+    //}
+//}

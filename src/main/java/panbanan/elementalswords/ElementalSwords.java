@@ -8,6 +8,7 @@ import panbanan.elementalswords.items.armors.PotatoRenderer;
 import panbanan.elementalswords.loottables.LootTableModify;
 import panbanan.panbanansmobs.EntityTesting;
 import panbanan.panbanansmobs.EntityTestingClient;
+import software.bernie.geckolib3.GeckoLib;
 
 public class ElementalSwords implements ModInitializer {
 
@@ -18,8 +19,9 @@ public class ElementalSwords implements ModInitializer {
         EnchantsRegistry.init();
         LootTableModify.modifyLootTable();
         EffectsRegistry.init();
-        EntityTestingClient.onInitializeClient();
-        EntityTesting.onInitialize();
+        GeckoLib.initialize();
+        /*EntityTesting.onInitialize();
+        EntityTestingClient.onInitializeClient();*/
         //PotatoRenderer.onInitializeClient();
     }
 

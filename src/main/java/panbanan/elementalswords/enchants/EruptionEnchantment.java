@@ -23,7 +23,7 @@ public class EruptionEnchantment extends Enchantment {
         if(targetEntity instanceof LivingEntity) {
             if (user instanceof PlayerEntity) {
                 //target.damage(DamageSource.LAVA, 3F);
-                spawnFlameCloud((PlayerEntity) user, (LivingEntity) targetEntity, 3F);
+                spawnFlameCloud((PlayerEntity) user, (LivingEntity) targetEntity, 2F);
             }
         }
     }
@@ -37,8 +37,8 @@ public class EruptionEnchantment extends Enchantment {
         areaEffectCloudEntity.setParticleType(ParticleTypes.LAVA);
         areaEffectCloudEntity.setRadius(radius);
         areaEffectCloudEntity.setDuration(60);
-        areaEffectCloudEntity.setWaitTime(0);
-        StatusEffectInstance effect = new StatusEffectInstance(EffectsRegistry.ERUPTION_EFFECT, 60, 2,false,false);
+        areaEffectCloudEntity.setWaitTime(10);
+        StatusEffectInstance effect = new StatusEffectInstance(EffectsRegistry.ERUPTION_EFFECT, 60, 1,false,false);
         areaEffectCloudEntity.addEffect(effect);
         areaEffectCloudEntity.setOnFireFor(3);
         target.setOnFireFor(3);
